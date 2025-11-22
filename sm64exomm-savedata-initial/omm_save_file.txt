@@ -1,0 +1,170 @@
+#
+# ------------------------------------------------------------------------------------------------------------ #
+#                                                           _                                                  #
+#    ____     _                          __    __          |_|     _        __    __                     _     #
+#   / __ \  _| |_  _______________  __   | \  / |____  _ __ _  __ |/ ____   | \  / | ____  _____ _______| |__  #
+#  / /  \ \/   \ \/ / __/ __/ _ \ \/ /   |  \/  |\__ \| '_/| |/  \  / __/   |  \/  |/  \ \/ / _ \ __/ _ \  _/  #
+#  \ \__/ / (] |\  /\__ \__ \ __/\  /    | \  / |/ _  | |  | | () | \__ \   | \  / | () \  /  __/__ \ __/ |__  #
+#   \____/ \___|/ / /___/___/___// /     |_|\/|_|\___/|_|  |_|\__/  /___/   |_|\/|_|\__/ \/ \___/___/___/___/  #
+#              /_/              /_/                                                                            #
+#                                                                                              by PeachyPeach  #
+# ------------------------------------------------------------------------------------------------------------ #
+#
+# All games saves are stored in this file.
+# Lines starting with # are comments.
+# Do not change the version number!
+#
+# Games sections:
+# - Every game save starts with a pair [xxxx:yy]:
+#   - xxxx is the game code name
+#   - yy is the save file name
+# - Flags:
+#   - 0 = locked and 1 = unlocked
+# - Courses:
+#   - the first 7 digits are the stars (1 = collected, 0 = not)
+#   - the next digit is the cannon (1 = open, 0 = close)
+#   - the last number is the coin score
+# - Captures:
+#   - each digit is a capture (1 = registered, 0 = not)
+# - Collectibles:
+#   - Render96:
+#     - the first 10 digits are the Luigi keys (1 = collected, 0 = not)
+#     - the last 6 digits are the Wario coins (1 = collected, 0 = not)
+# - Stats:
+#   - various stats per save file (these should not be edited manually)
+#
+# The [sparkly_stars], [stats] and [secrets] sections should not be edited manually.
+# The [mario_colors] and [peach_colors] sections can be edited in-game with the Palette Editor.
+#
+
+version = 8.1.1
+
+[smex:A0]
+wing_cap = 1
+metal_cap = 1
+vanish_cap = 1
+bowser_key_1 = 0
+bowser_key_2 = 0
+moat_drained = 1
+ddd_moved_back = 1
+pps_door = 1
+wf_door = 1
+jrb_door = 1
+ccm_door = 1
+8_star_door = 1
+30_star_door = 1
+50_star_door = 1
+basement_door = 1
+upstairs_door = 1
+castle = 1111100 0 116
+bob = 1111111 0 100
+wf = 1111111 1 105
+jrb = 1111111 0 101
+ccm = 1111111 0 108
+bbh = 1111111 0 106
+hmc = 1111111 0 126
+lll = 1111111 0 101
+ssl = 1111111 0 102
+ddd = 1111111 0 111
+sl = 1111111 0 109
+wdw = 1111111 1 139
+ttm = 1111111 0 100
+thi = 1111111 0 116
+ttc = 1111111 0 116
+rr = 1111111 0 101
+bitdw = 1000000 0 26
+bitfs = 1000000 0 33
+bits = 1000000 0 40
+pss = 1100000 0 47
+cotmc = 1000000 0 24
+totwc = 1000000 0 56
+vcutm = 1000000 0 16
+wmotr = 1000000 0 42
+sa = 1000000 0 48
+ending = 0000000 0 0
+last = pss 1
+captures = 100011101100001001111111100011110100101101011110
+stat_starsCollected = 123
+stat_sparklyStarsCollected = 2
+stat_coinsCollected = 2124
+stat_capsCollected = 13
+stat_mushrooms1upCollected = 33
+stat_secretsCollected = 20
+stat_exclamationBoxesBroken = 57
+stat_enemiesDefeated = 137
+stat_bowsersDefeated = 0
+stat_aPresses = 4294
+stat_jumps = 2082
+stat_attacks = 3364
+stat_cappyThrows = 1252
+stat_cappyBounces = 269
+stat_captures = 80
+stat_hitsTaken = 53
+stat_restarts = 7
+stat_deaths = 4
+stat_distanceTotal = 6243826 471957
+stat_distanceOnGround = 1726644 255057
+stat_distanceAirborne = 4252836 216900
+stat_distanceUnderwater = 264346 6547
+stat_distanceWingCap = 311496 0
+stat_distanceMetalCap = 22079 0
+stat_distanceVanishCap = 85472 0
+stat_timeTotal = 271568 17658
+stat_timeOnGround = 141828 10454
+stat_timeAirborne = 115655 7204
+stat_timeUnderwater = 14085 275
+stat_timeWingCap = 7906 0
+stat_timeMetalCap = 969 0
+stat_timeVanishCap = 3640 0
+
+[sparkly_stars]
+sparkly_stars = 7jzQHtPJdhy1SFEEI9NedyBuK2SjTJPATs0dxrrlhMHRKJx71PFKr6j0yK0
+
+[stats]
+stats_starsCollected = 123
+stats_sparklyStarsCollected = 2
+stats_coinsCollected = 2124
+stats_capsCollected = 13
+stats_mushrooms1upCollected = 33
+stats_secretsCollected = 20
+stats_exclamationBoxesBroken = 57
+stats_enemiesDefeated = 137
+stats_bowsersDefeated = 0
+stats_aPresses = 4294
+stats_jumps = 2082
+stats_attacks = 3364
+stats_cappyThrows = 1252
+stats_cappyBounces = 269
+stats_captures = 80
+stats_hitsTaken = 53
+stats_restarts = 7
+stats_deaths = 4
+stats_distanceTotal = 6243826 471957
+stats_distanceOnGround = 1726644 255057
+stats_distanceAirborne = 4252836 216900
+stats_distanceUnderwater = 264346 6547
+stats_distanceWingCap = 311496 0
+stats_distanceMetalCap = 22079 0
+stats_distanceVanishCap = 85472 0
+stats_timeTotal = 271568 17658
+stats_timeOnGround = 141828 10454
+stats_timeAirborne = 115655 7204
+stats_timeUnderwater = 14085 275
+stats_timeWingCap = 7906 0
+stats_timeMetalCap = 969 0
+stats_timeVanishCap = 3640 0
+
+[secrets]
+
+[mario_colors]
+mario_custom_1 = 7F0000FF00003903007306007F603CFEC1797F7F7FFFFFFF00007F0000FF390E07721C0EFF0000FF40807F0000FF00007F0000FF0000 "Custom 1"
+mario_custom_2 = 7F0000FF00003903007306007F603CFEC1797F7F7FFFFFFF00007F0000FF390E07721C0EFF0000FF40807F0000FF00007F0000FF0000 "Custom 2"
+mario_custom_3 = 7F0000FF00003903007306007F603CFEC1797F7F7FFFFFFF00007F0000FF390E07721C0EFF0000FF40807F0000FF00007F0000FF0000 "Custom 3"
+mario_custom_4 = 7F0000FF00003903007306007F603CFEC1797F7F7FFFFFFF00007F0000FF390E07721C0EFF0000FF40807F0000FF00007F0000FF0000 "Custom 4"
+
+[peach_colors]
+peach_custom_1 = 7F6E64FFDCC87F780CFFF0187F3C50FF78A0681830D030607F7F7FFFFFFF00607F00C0FF7F0018FF0030FF0080FF40FF "Custom 1"
+peach_custom_2 = 7F6E64FFDCC87F780CFFF0187F3C50FF78A0681830D030607F7F7FFFFFFF00607F00C0FF7F0018FF0030FF0080FF40FF "Custom 2"
+peach_custom_3 = 7F6E64FFDCC87F780CFFF0187F3C50FF78A0681830D030607F7F7FFFFFFF00607F00C0FF7F0018FF0030FF0080FF40FF "Custom 3"
+peach_custom_4 = 7F6E64FFDCC87F780CFFF0187F3C50FF78A0681830D030607F7F7FFFFFFF00607F00C0FF7F0018FF0030FF0080FF40FF "Custom 4"
+

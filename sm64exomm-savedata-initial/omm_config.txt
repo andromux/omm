@@ -1,0 +1,106 @@
+fullscreen false
+window_x 0
+window_y 77
+window_w 1920
+window_h 1003
+vsync true
+texture_filtering 1
+master_volume 127
+music_volume 127
+sfx_volume 127
+env_volume 127
+stick_deadzone 16
+rumble_strength 50
+precache true
+bettercam_enable false
+bettercam_analog false
+bettercam_mouse_look false
+bettercam_invertx false
+bettercam_inverty false
+bettercam_xsens 50
+bettercam_ysens 50
+bettercam_aggression 0
+bettercam_pan_level 0
+bettercam_degrade 100
+skip_intro false
+cs_palette_preset true
+cs_animations true
+cs_voices true
+cs_voice_volume_factor 100
+time_trials_enabled false
+time_trials_show_star_ghosts true
+time_trials_show_bowser_ghosts true
+time_trials_show_slide_ghosts true
+time_trials_show_coins_ghosts true
+time_trials_show_all_stars_ghosts true
+omm_key_a 0026 1000 1000
+omm_key_b 0033 1001 ffff
+omm_key_x 0025 1002 ffff
+omm_key_y 0032 1003 ffff
+omm_key_start 0039 1006 ffff
+omm_key_spin 1102 1003 1009
+omm_key_l 002a 1009 ffff
+omm_key_r 0036 100a ffff
+omm_key_z 0018 101a 101b
+omm_key_cup 0148 ffff ffff
+omm_key_cdown 0150 ffff ffff
+omm_key_cleft 014b ffff ffff
+omm_key_cright 014d ffff ffff
+omm_key_dup 000c 100b ffff
+omm_key_ddown 001a 100c ffff
+omm_key_dleft 0019 100d ffff
+omm_key_dright 001b 100e ffff
+omm_key_stickup 0011 ffff ffff
+omm_key_stickdown 001f ffff ffff
+omm_key_stickleft 001e ffff ffff
+omm_key_stickright 0020 ffff ffff
+omm_frame_rate 3
+omm_show_fps true
+omm_texture_caching 2
+omm_model_pack_caching true
+omm_hud_mode 2
+omm_hud_size 8
+omm_camera_invert_1st_person 0
+omm_camera_invert_3rd_person 0
+omm_character 0
+omm_character_shortcuts ffff ffff ffff
+omm_moveset_type 1
+omm_moveset_type_shortcuts ffff ffff ffff
+omm_cap_type 2
+omm_cap_type_shortcuts ffff ffff ffff
+omm_stars_mode 1
+omm_stars_mode_shortcuts ffff ffff ffff
+omm_power_ups_type 1
+omm_power_ups_type_shortcuts ffff ffff ffff
+omm_camera_mode 1
+omm_camera_mode_shortcuts ffff ffff ffff
+omm_sparkly_stars_mode 1
+omm_sparkly_stars_mode_shortcuts ffff ffff ffff
+omm_sparkly_stars_hint_at_level_entry 0
+omm_sparkly_stars_hint_at_level_entry_shortcuts ffff ffff ffff
+omm_sparkly_stars_completion_reward 0
+omm_sparkly_stars_completion_reward_shortcuts ffff ffff ffff
+omm_sparkly_stars_perry_charge true
+omm_sparkly_stars_perry_charge_shortcuts ffff ffff ffff
+omm_extras_mario_colors 2
+omm_extras_mario_colors_shortcuts ffff ffff ffff
+omm_extras_peach_colors 0
+omm_extras_peach_colors_shortcuts ffff ffff ffff
+omm_extras_objects_radar 1
+omm_extras_objects_radar_shortcuts ffff ffff ffff
+omm_extras_smo_animations true
+omm_extras_smo_animations_shortcuts ffff ffff ffff
+omm_extras_cappy_and_tiara true
+omm_extras_cappy_and_tiara_shortcuts ffff ffff ffff
+omm_extras_colored_stars true
+omm_extras_colored_stars_shortcuts ffff ffff ffff
+omm_extras_reveal_secrets false
+omm_extras_reveal_secrets_shortcuts ffff ffff ffff
+omm_extras_show_star_number true
+omm_extras_show_star_number_shortcuts ffff ffff ffff
+omm_extras_invisible_mode false
+omm_extras_invisible_mode_shortcuts ffff ffff ffff
+omm_extras_mario_mode false
+omm_extras_mario_mode_shortcuts ffff ffff ffff
+model_pack Render96_DynOs_v3.25
+model_pack Render96_Mario_(Color_Support)
